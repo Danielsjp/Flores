@@ -1,0 +1,35 @@
+﻿<Window x:Class="TiendaFlores.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiendaFlores"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="518.666" Width="494">
+    <Grid HorizontalAlignment="Left" Width="502" Margin="0,-55,-11,33">
+        <Button x:Name="BotonPrincipal" Content="Button" HorizontalAlignment="Left" Margin="153,304,0,0" VerticalAlignment="Top" Width="277" Click="Button_Click"/>
+
+        <TextBox x:Name="FlorisName" HorizontalAlignment="Left" Height="24" Margin="152,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TreeSize" HorizontalAlignment="Left" Height="24" Margin="152,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="FlowerColor" HorizontalAlignment="Left" Height="24" Margin="152,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Decoration" HorizontalAlignment="Left" Height="24" Margin="153,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TreePrice" HorizontalAlignment="Left" Height="24" Margin="310,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="FlowerPrice" HorizontalAlignment="Left" Height="24" Margin="310,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DecoPrice" HorizontalAlignment="Left" Height="24" Margin="310,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="€" HorizontalAlignment="Left" Margin="445,171,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="FLORISTERIA CYBERNARIUM" HorizontalAlignment="Left" VerticalAlignment="Top" Width="492" Background="#FF34DE79" Margin="0,55,0,0"/>
+        <Label Content="Nueva Decoracion" HorizontalAlignment="Left" Margin="34,260,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="Color Flor" HorizontalAlignment="Left" Margin="34,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="Tamaño Arbol" HorizontalAlignment="Left" Margin="34,169,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="Nombre Floristeria" HorizontalAlignment="Left" Margin="31,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="€" HorizontalAlignment="Left" Margin="445,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="€" HorizontalAlignment="Left" Margin="445,260,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Background="#FF34DE79" Margin="17,357,0,0"/>
+        <Label Content="Total Tiendas" HorizontalAlignment="Left" Margin="31,356,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+        <Label x:Name="NumTiendas" HorizontalAlignment="Left" Margin="153,358,0,0" VerticalAlignment="Top" Height="39" Width="277" Background="#FFC5B40B" FontSize="18"/>
+        <Label x:Name="TotalEuros" HorizontalAlignment="Left" Margin="153,421,0,0" VerticalAlignment="Top" Height="39" Width="277" Background="#FFC5B40B" FontSize="18"/>
+        <Label Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Background="#FF34DE79" Margin="17,430,0,0"/>
+        <Label Content="Total Euros" HorizontalAlignment="Left" Margin="26,432,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.038"/>
+    </Grid>
+</Window>
